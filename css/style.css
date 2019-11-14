@@ -345,6 +345,9 @@ button {
 .gris {
   opacity: 0.7;
 }
+.redondito {
+  border-radius: 25px;
+}
 ::-webkit-selection {
   color: #fff;
   background: #ffcc00;
@@ -360,7 +363,7 @@ button {
   background: #ffcc00;
 }
 .flota:hover {
-  transform: scale(1.02);
+  transform: scale(1.01);
   filter: drop-shadow(5px 5px 5px #d3d3d3);
   -webkit-filter: drop-shadow(5px 5px 5px #d3d3d3);
 }
@@ -369,8 +372,8 @@ button {
   transition: 0.5s;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .multiply {
   background-color: #f8f7f4;
@@ -382,7 +385,7 @@ button {
 .centrada {
   display: flex;
   justify-content: center;
-  margin: 50px auto;
+  margin: 0px auto;
 }
 .contenedor {
   display: flex;
@@ -457,15 +460,11 @@ p.piefotoder {
   color: #444444;
 }
 .marco {
-  border: 2px solid #ffcc00;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 15px;
   border-radius: 20px;
   transition: 0.6s;
 }
 .marco p {
-  margin-left: 50px;
-  margin-right: 50px;
 }
 .marco:hover {
   background: #fff;
@@ -877,11 +876,6 @@ body.offcanvas .ico-nav-toggle {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-}
-.ico-franja .item p {
-  /*
-	font-size: 30px;
-*/
 }
 @media screen and (max-width: 768px) {
   .ico-franja .item p {
